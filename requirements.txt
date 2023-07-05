@@ -1,4 +1,4 @@
-aiogram==2.25.1
+aiogram==3.0.0b6
 environs==9.5.0
 numpy==1.25.0
 Pillow==10.0.0
