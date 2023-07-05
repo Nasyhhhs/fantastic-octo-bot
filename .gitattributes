@@ -1,0 +1,2 @@
+.pth filter=lfs diff=lfs merge=lfs -text
+weights/Bgen_54_half.pth filter=lfs diff=lfs merge=lfs -text
