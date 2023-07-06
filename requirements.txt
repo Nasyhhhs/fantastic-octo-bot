@@ -6,9 +6,9 @@ Requests==2.31.0
 super_image==0.1.7
 torch==2.0.1
 torchvision==0.15.2
-opencv-python==4.8.0.74
 urllib3==2.0.3
 typing-extensions==4.7.1
 huggingface-hub==0.16.2
 wheel==0.36.2
-opencv-contrib-python
+opencv-contrib-python == 4.8.0.74
+pip==23.1.2
