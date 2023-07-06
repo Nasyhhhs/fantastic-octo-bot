@@ -11,3 +11,4 @@ urllib3==2.0.3
 typing-extensions==4.7.1
 huggingface-hub==0.16.2
 wheel==0.36.2
+libGL.so.1
