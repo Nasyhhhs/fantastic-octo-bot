@@ -26,7 +26,7 @@ def reverse_normalize(image, mean_=0.5, std_=0.5):
 weights_path = 'weights'
 #Функции для загрузки весов генератора
 def load_gen(path=weights_path, epoch=54):
-    return torch.load(path+f'/Bgen_{epoch}.pth', map_location=torch.device('cpu'))
+    return torch.load(path+f'/Bgen_{epoch}_half.pth', map_location=torch.device('cpu'))
 
 #функция загрузки и обработки фото генератором
 def generate_image(img, path=weights_path):
