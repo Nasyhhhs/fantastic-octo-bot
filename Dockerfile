@@ -10,7 +10,6 @@ COPY . /app
 RUN apt update && apt install -y libgl1-mesa-glx
 
 # Установка предварительно скомпилированной версии PyTorch
-RUN pip install torch==1.9.0
 
 # Устанавливаем зависимости проекта
 RUN pip install -r /app/requirements.txt

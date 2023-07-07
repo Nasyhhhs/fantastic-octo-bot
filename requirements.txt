@@ -5,6 +5,6 @@ Pillow==10.0.0
 Requests==2.31.0
 super_image==0.1.7
 typing-extensions==4.7.1
-torch==1.9.0 
+torch==2.0.1
 torchvision==0.15.2
 
