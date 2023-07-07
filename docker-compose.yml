@@ -4,7 +4,9 @@ services:
   telegram-bot:
     container_name: telegram-bot
     working_dir: /app
-    restart: always
+    env_file:
+      - ./.env
+    restart: on-failure
     build:
         context: .
         dockerfile: Dockerfile
