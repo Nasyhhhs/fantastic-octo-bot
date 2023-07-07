@@ -7,7 +7,7 @@ COPY . /app
 
 
 # Установка пакета libgl1-mesa-glx
-RUN apt install -y libgl1-mesa-glx
+RUN apt update && apt install -y libgl1-mesa-glx
 
 # Установка предварительно скомпилированной версии PyTorch
 
