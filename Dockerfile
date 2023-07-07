@@ -9,6 +9,8 @@ COPY . /app
 # Установка пакета libgl1-mesa-glx
 RUN apt update && apt install -y libgl1-mesa-glx
 
+RUN pip install torch==1.9.0+cpu torchvision==0.10.0+cpu torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+
 # Устанавливаем зависимости проекта
 RUN pip install -r /app/requirements.txt
 
