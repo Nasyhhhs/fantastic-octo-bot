@@ -1,8 +1,8 @@
-version: "3.9"
+version: "2.4"
 
 services:
   telegram-bot:
-    container_name: telegram-bot
+    container_name: neon_tg_bot
     working_dir: /app
     env_file:
       - ./.env
