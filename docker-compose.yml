@@ -6,7 +6,7 @@ services:
     working_dir: /app
     env_file:
       - ./.env
-    restart: on-failure
+    restart: always
     build:
         context: .
         dockerfile: Dockerfile
